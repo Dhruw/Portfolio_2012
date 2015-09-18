@@ -1,0 +1,88 @@
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px; 
+}
+
+#header {
+	height:100px;
+	left:0px;
+	width:100%;
+	top:0px;
+	position:fixed;
+	background-image:url(header.jpg);
+	background-position:left;
+}
+
+#footer{
+	height:100px;
+	width:100%;
+	background-image:url(footer.jpg);
+	background-position:right;
+	margin-top:25px;
+}
+
+#menu_lst li{
+	margin:0px 1px 0px 1px;
+	list-style-type:none;
+	height:21px;
+	float:right;
+	padding-left:35px;
+	padding-right:35px;
+	text-align:center;
+	color:#000;
+}
+
+#menu{
+	font-family:Tahoma, Geneva, sans-serif;
+	width:1030px;
+	padding-top:4px;
+	margin:auto;
+	font-weight:bold;
+}
+
+#menu_lst li:hover{
+	background-color:#EEE;
+	background-image:url(ms2.jpg);	
+	background-repeat:repeat-x;
+	color:#fff;
+}
+
+#main_frame{
+	width:1010px;
+	margin:auto;
+	margin-top:140px ;
+	padding-top:20px;
+	min-height:504px;
+	background-image:url(mbg.png);
+	background-repeat:repeat-y; 
+	text-align:justify;
+}
+
+#side{
+	width:300px;
+	height:450px;
+	border:1px solid;
+	margin:0px 25px 25px 25px;
+	float:left;
+}
+
+#write{
+	padding:15px;
+}
+
+#pro_list a{
+	text-decoration:none;
+	color:#000;
+}
+
+#pro_list a:hover{
+	text-decoration:underline;
+}
+
+#art_g{
+	height:320px;
+	width:320px;
+	margin:2px;
+	margin-top:13px;
+	float:left;
+}
